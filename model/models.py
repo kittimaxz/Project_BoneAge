@@ -1,3 +1,7 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class BoneAgePredictor(nn.Module):
     def __init__(self):
         super(BoneAgePredictor, self).__init__()
